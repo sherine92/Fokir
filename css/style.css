@@ -1,0 +1,872 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  font-family: segoe ui light;
+}
+.gray {
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 100vh;
+
+  position: absolute;
+  width: 100%;
+}
+.home {
+  height: 100vh;
+  background-image: url(../img/slider-01.jpg);
+
+  width: 100%;
+  background-size: 100%;
+}
+
+.navbar {
+  color: crimson;
+
+  display: flex;
+}
+.navbar .logo {
+  width: 30%;
+  padding: 10px 100px;
+}
+.navbar .logo h1 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 25px;
+}
+.navbar .logo h1 a {
+  text-decoration: none;
+  color: crimson;
+}
+
+.navbar .links {
+  width: 70%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.navbar .links ul {
+  list-style: none;
+  display: flex;
+  padding-right: 100px;
+}
+.navbar .links ul li {
+  padding: 20px 10px;
+  font-size: 18px;
+}
+.navbar .links ul li .blue {
+  color: crimson;
+}
+
+.navbar .links ul li a {
+  color: white;
+  text-decoration: none;
+}
+.navbar .links ul li a:hover {
+  color: crimson;
+}
+
+.contanir {
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.room h3 {
+  font-size: 25px;
+  margin: 0%;
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
+}
+.room h1 {
+  font-size: 70px;
+  font-family: "Source Sans Pro", sans-serif;
+
+  color: crimson;
+  margin: 0%;
+}
+
+.room p {
+  font-size: 25px;
+  font-weight: 500;
+  color: white;
+
+  margin: 0%;
+  position: relative;
+  animation-name: web;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+}
+
+.room p::after {
+  content: "";
+  animation-name: test;
+  animation-duration: 10s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes test {
+  0% {
+    content: "D|";
+  }
+  1% {
+    content: "De|";
+  }
+  2% {
+    content: "Des|";
+  }
+  3% {
+    content: "Desi|";
+  }
+  4% {
+    content: "Desig|";
+  }
+  5% {
+    content: " Design|";
+  }
+  6% {
+    content: "Designe|";
+  }
+  7% {
+    content: "Designer|";
+  }
+  8% {
+    content: "Designe|";
+  }
+  9% {
+    content: " Design|";
+  }
+  10% {
+    content: " Desig|";
+  }
+  11% {
+    content: "Desi|";
+  }
+  12% {
+    content: "Des|";
+  }
+  13% {
+    content: "De |";
+  }
+  14% {
+    content: "D|";
+  }
+  15% {
+    content: "De|";
+  }
+  16% {
+    content: "Dev|";
+  }
+  17% {
+    content: "Deve|";
+  }
+  18% {
+    content: "Devel|";
+  }
+  19% {
+    content: "Develo|";
+  }
+  20% {
+    content: "Develop|";
+  }
+  21% {
+    content: "Develope |";
+  }
+  22% {
+    content: "Developer|";
+  }
+  23% {
+    content: "Develope|";
+  }
+  24% {
+    content: "Develop|";
+  }
+  25% {
+    content: "Develo|";
+  }
+  26% {
+    content: "Devel|";
+  }
+  27% {
+    content: "Deve|";
+  }
+  28% {
+    content: "Dev|";
+  }
+  29% {
+    content: "De|";
+  }
+  30% {
+    content: "D|";
+  }
+  31% {
+    content: "|";
+  }
+  32% {
+    content: " P|";
+  }
+  33% {
+    content: " Ph|";
+  }
+  34% {
+    content: " Pho|";
+  }
+  35% {
+    content: " Phot|";
+  }
+  36% {
+    content: " Photo|";
+  }
+  37% {
+    content: " Photog|";
+  }
+  38% {
+    content: " Photogr|";
+  }
+  39% {
+    content: " Photogra|";
+  }
+  40% {
+    content: " Photograp|";
+  }
+  41% {
+    content: " Photograph|";
+  }
+  42% {
+    content: " Photographe|";
+  }
+  43% {
+    content: " Photographer|";
+  }
+  44% {
+    content: " Photographe|";
+  }
+  45% {
+    content: " Photograph|";
+  }
+  46% {
+    content: " Photograp|";
+  }
+  47% {
+    content: " Photogra|";
+  }
+  48% {
+    content: "Photogr| ";
+  }
+  49% {
+    content: "Photog| ";
+  }
+  50% {
+    content: "Photo| ";
+  }
+  52% {
+    content: "Phot| ";
+  }
+  54% {
+    content: "Pho| ";
+  }
+  56% {
+    content: "Ph| ";
+  }
+  58% {
+    content: "P| ";
+  }
+  60% {
+    content: "| ";
+  }
+  62% {
+    content: "F|";
+  }
+  64% {
+    content: "Fr|";
+  }
+  66% {
+    content: "Fre|";
+  }
+  68% {
+    content: "Free |";
+  }
+  70% {
+    content: "Freel|";
+  }
+  72% {
+    content: "Freela|";
+  }
+  74% {
+    content: "Freelan|";
+  }
+  76% {
+    content: "Freelanc|";
+  }
+  78% {
+    content: "Freelance|";
+  }
+  80% {
+    content: "Freelancer|";
+  }
+  82% {
+    content: "Freelance|";
+  }
+  84% {
+    content: "Freelanc |";
+  }
+  86% {
+    content: "Freelan|";
+  }
+  88% {
+    content: "Freela|";
+  }
+  90% {
+    content: "Freel|";
+  }
+  92% {
+    content: "Free|";
+  }
+  94% {
+    content: "Fre|";
+  }
+  96% {
+    content: "Fr|";
+  }
+  98% {
+    content: "f|";
+  }
+  100% {
+    content: "|";
+  }
+}
+
+.contanir1 {
+  width: 70%;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.parent {
+  border: 8px solid #555555;
+  border-radius: 5px;
+}
+
+.img-caption {
+  position: relative;
+  transform: translate(25px, 20px);
+  overflow: hidden;
+}
+
+.an {
+  background-color: rgba(63, 67, 71, 0.7);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-caption:hover .an {
+  top: 0%;
+  transition-duration: 1s;
+}
+.an i {
+  padding: 7px;
+  font-size: 18px;
+}
+
+.child2 {
+  width: 50%;
+
+  color: #555555;
+}
+
+.child2 h1 {
+  color: black;
+  margin-left: 12px;
+  position: relative;
+}
+.child2 h1::before {
+  content: "";
+  position: absolute;
+  background-color: #ff305b;
+  width: 4px;
+  height: 25px;
+  left: -15px;
+  top: 14px;
+}
+.child2 p {
+  margin: 20px 0px;
+
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.child2 .lists {
+  display: flex;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.child2 .lists span {
+  color: black;
+}
+
+.child2 .lists .ul2 {
+  padding-left: 100px;
+  list-style: none;
+}
+.child2 .lists .ul2 a {
+  text-decoration: none;
+  color: #555555;
+}
+
+.lists ul {
+  list-style: none;
+}
+.lists ul li {
+  padding: 7px;
+}
+.child2 button {
+  padding: 10px 20px;
+  margin-top: 20px;
+
+  background-color: #ff305b;
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.child2 button:hover {
+  background-color: rgb(235, 27, 27);
+}
+/* end of section 2 */
+
+.center {
+  background-color: rgb(225, 228, 220);
+  text-align: center;
+  padding: 80px;
+  margin-top: 100px;
+  position: relative;
+}
+
+.center h1::after {
+  content: "";
+  background-color: #ff305b;
+  position: absolute;
+  width: 150px;
+  height: 1px;
+  left: 605px;
+  top: 140px;
+}
+.center h1::before {
+  content: "";
+  border-bottom: 1px solid #ff305b;
+  border-top: 1px solid #ff305b;
+  position: absolute;
+  width: 80px;
+  height: 9px;
+  left: 640px;
+  top: 135px;
+}
+
+.ourserv {
+  background-color: rgb(225, 228, 220);
+  padding-top: 100px;
+  margin-bottom: -60px;
+  display: flex;
+  justify-content: center;
+}
+
+.ourserv .item {
+  background-color: rgb(225, 228, 220);
+  width: 25%;
+  height: 250px;
+  text-align: center;
+  padding: 10px;
+}
+.ourserv .item i {
+  color: crimson;
+  font-size: 27px;
+  padding-bottom: 10px;
+}
+.ourserv .item h2,
+.ourserv .item p {
+  padding: 10px;
+}
+
+.ourserv .item:hover i {
+  transform: scale(1.3);
+  transition-duration: 0.5s;
+}
+.ourserv .item:hover {
+  background-color: white;
+  transition-duration: 0.5s;
+}
+/* end of section 3 */
+.caption {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0px 50px;
+}
+.caption .adress {
+  text-align: center;
+  position: relative;
+}
+.caption .adress::after {
+  content: "";
+  background-color: #ff305b;
+  position: absolute;
+  width: 150px;
+  height: 1px;
+  left: 95px;
+  top: 70px;
+}
+.caption .adress::before {
+  content: "";
+  border-bottom: 1px solid #ff305b;
+  border-top: 1px solid #ff305b;
+  position: absolute;
+  width: 80px;
+  height: 9px;
+  left: 130px;
+  top: 65px;
+}
+.caption .adress h1 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+.caption .adress ul {
+  display: flex;
+  padding-top: 50px;
+}
+.caption .adress ul li {
+  list-style: none;
+  margin: 10px;
+  font-size: 20px;
+
+  font-weight: 600;
+}
+.caption .adress ul li a {
+  text-decoration: none;
+  color: #333333;
+}
+.caption .adress ul .yello {
+  color: crimson;
+}
+
+.port {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.port .product {
+  width: 25%;
+  margin: 20px;
+}
+
+.port .ground {
+  background-color: rgba(60, 60, 61, 0.7);
+  height: 253px;
+  position: absolute;
+  width: 25%;
+  opacity: 0;
+}
+.port .product:hover .ground {
+  opacity: 1;
+  transition-duration: 0.5s;
+}
+
+.port .product img {
+  width: 100%;
+}
+/* end of section 4 */
+.inform {
+  background-color: rgb(225, 228, 220);
+  height: 300px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 70px;
+  padding: 100px;
+}
+.inform .slide {
+  width: 50%;
+  font-weight: bold;
+}
+.inform .slide i {
+  font-size: 25px;
+  padding-bottom: 10px;
+  color: #ff305b;
+}
+.inform .slide h3 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 28px;
+}
+.inform .slide p {
+  font-size: 16px;
+  padding-top: 5px;
+}
+/* end of section 5 */
+
+.client {
+  margin: 100px 0px 30px;
+}
+.client .feed {
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  position: relative;
+  font-size: 20px;
+}
+.client .feed::after {
+  content: "";
+  background-color: #ff305b;
+  position: absolute;
+  width: 150px;
+  height: 1px;
+  left: 600px;
+  top: 70px;
+}
+.client .feed::before {
+  content: "";
+  border-bottom: 1px solid #ff305b;
+  border-top: 1px solid #ff305b;
+  position: absolute;
+  width: 80px;
+  height: 9px;
+  left: 640px;
+  top: 65px;
+}
+
+.a {
+  background-color: rgb(238, 238, 238);
+  width: 55%;
+  height: 270px;
+  margin: auto;
+  margin-top: 50px;
+  margin-left: 300px;
+  border-radius: 6px;
+  position: absolute;
+}
+.a .b {
+  width: 1px;
+  height: 1px;
+  border-top: 200px solid #ff305b;
+  border-right: 200px solid transparent;
+}
+.clients {
+  width: 50%;
+  height: 150px;
+  display: flex;
+  margin-top: 130px;
+  margin-left: 350px;
+  position: relative;
+}
+.clients .feedback {
+  margin-left: 15px;
+}
+
+.clients img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+
+.clients .feedback i {
+  padding-top: 15px;
+  color: #f1c30d;
+}
+.clients .feedback p {
+  padding-top: 10px;
+  color: #535050;
+  font-size: 17px;
+  font-weight: 600;
+  font-style: italic;
+}
+.clients .feedback a {
+  color: rgb(68, 67, 67);
+  text-decoration: none;
+  margin-left: 5px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.clients .feedback .map {
+  display: flex;
+}
+.clients .feedback .map i {
+  color: rgb(68, 67, 67);
+}
+
+/* end of section 6 */
+
+.blog {
+  position: relative;
+  background-color: rgb(238, 238, 238);
+  margin-top: -50px;
+}
+.blog::after {
+  content: "";
+  background-color: #ff305b;
+  position: absolute;
+  width: 150px;
+  height: 1px;
+  left: 600px;
+  top: 165px;
+}
+.blog::before {
+  content: "";
+  border-bottom: 1px solid #ff305b;
+  border-top: 1px solid #ff305b;
+  position: absolute;
+  width: 80px;
+  height: 9px;
+  left: 640px;
+  top: 160px;
+}
+.blog .blogr {
+  padding-top: 100px;
+}
+
+.blog .blogr h1 {
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+
+  font-size: 40px;
+}
+
+.dad {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.dad .son {
+  background-color: white;
+  width: 27%;
+  margin: 50px 15px;
+}
+.dad .son .content {
+  padding: 20px 20px;
+}
+.dad .son .content h3 {
+  color: #555555;
+  font-weight: bolder;
+}
+.dad .son .content h2,
+.dad .son .content p {
+  padding: 10px 0px;
+}
+.dad .son .content p {
+  font-size: 17px;
+  color: #555555;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+.dad .son .content a {
+  text-decoration: none;
+  color: #3f3c3c;
+}
+.dad .son .content i {
+  padding-left: 5px;
+}
+.dad .son img {
+  width: 100%;
+}
+.dad .son iframe {
+  width: 100%;
+  height: 208px;
+}
+/* end of section 7 */
+
+.contact {
+  position: relative;
+}
+.contact::after {
+  content: "";
+  background-color: #ff305b;
+  position: absolute;
+  width: 150px;
+  height: 1px;
+  left: 600px;
+  top: 70px;
+}
+.contact::before {
+  content: "";
+  border-bottom: 1px solid #ff305b;
+  border-top: 1px solid #ff305b;
+  position: absolute;
+  width: 80px;
+  height: 9px;
+  left: 640px;
+  top: 65px;
+}
+.contact .us {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 100px;
+}
+.form {
+  width: 60%;
+  margin: 100px;
+  margin-top: 50px;
+}
+.form .table {
+  height: 300px;
+  margin: auto;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.form .table ::placeholder {
+  padding: 5px 10px;
+}
+.form .table input {
+  height: 40px;
+  width: 380px;
+  margin: 10px;
+}
+.form .table .sub input {
+  width: 780px;
+}
+.form .table textarea {
+  margin: 10px;
+  width: 780px;
+}
+.form .table button {
+  margin: 10px;
+  left: 0px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #ff305b;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.form .table button:hover {
+  background-color: rgb(235, 27, 27);
+}
+/* end of section 8 */
+.end {
+  background-color: rgb(43, 40, 40);
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.end .copy {
+  color: white;
+  width: 50%;
+}
+.end .copy i {
+  padding: 10px;
+}
+.end .copy a {
+  text-decoration: none;
+  color: crimson;
+}
+.end .copy p {
+  font-weight: 600;
+}
+/* end of section 9 */
